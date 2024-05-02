@@ -2,6 +2,11 @@
 
 This project integrates a Kik bot with Discord using Redis to facilitate message passing between the two platforms. The Kik bot can respond to messages directly on Kik or relay messages from a Discord channel to Kik and vice versa.
 
+## Features
+
+- A kik AI bot that can respond in groups and in DM naturally (Picks up on your user name as well).
+- A Basic Discord Bot that receives and delivers messages between Kik and Discord.
+
 ## Prerequisites
 
 Before you start, make sure you have the following installed:
@@ -20,6 +25,7 @@ You will also need:
 
 2. **Install dependencies:**
    Install the required Python libraries by running:
+   
 ```
 bash pip install -r requirements.txt
 ```
